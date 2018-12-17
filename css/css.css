@@ -5,15 +5,24 @@
 }
 
 body {
-  margin: 40px;
+  margin-top: auto;  
   font-family: 'Open Sans', 'sans-serif';
-  background-color: #fff;
-  color: #444;
+  background-color: #000;
+    background-image: url("../images/rainpix.png");
+  color: #fff;
+    background-position: top;
+    background-repeat: repeat-x;
+}
+
+.top-content {
+    padding: 20px;
 }
 
 img {
   max-width: 100%;
+     
 }
+
 
 h1,
 p {
@@ -59,7 +68,7 @@ p {
   .media .img {
     float: left;
     margin: 0 10px 0 0;
-    width: 150px;
+    width: 960px;
   }
   
   .media .footer {
