@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   margin-top: auto;  
   font-family: 'Open Sans', 'sans-serif';
@@ -23,11 +25,115 @@ img {
      
 }
 
+.title-text-main{
+  font-size: 41px;
+  color: red;
+  text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black; 
+}
 
-h1,
+
+h1 {
+  font-size: 39px;
+  color: #cce6ff;
+  text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
+  
+}
+
+
 p {
   margin: 0 0 1em 0;
+  color: #cce6ff;
+    }
+
+
+
+
+
+.author-meta-info{
+    float:left;
+    text-align:left;
+    position:relative;
+    width:80%
 }
+
+.meta-info__hotness, .author-meta-info__author-name, .author-meta-info__bio-link{
+    text-transform:uppercase
+}
+
+.author-meta-info__published-info{
+    display:block;
+    font:10px/16px "Graphik Medium",Helvetica,Arial,sans-serif}
+
+.author-meta-info__bio-link{
+    color:#cce6ff;
+    font-weight:500
+}
+
+.author-meta-info__bio-link:hover{color:#969696
+}
+
+  .author-meta-info__data-container{
+    display:inline-block;
+    vertical-align:top;
+    font:10px/16px "Graphik",Helvetica,Arial,sans-serif;
+    font-weight:500;
+    color: #FFFF;
+    letter-spacing:.4px
+}
+
+.meta-info{
+        width:632px;
+        padding-top:2px; 
+        margin-left:168px
+}
+
+.meta-info.is-standard,.author-meta-info__data-container{
+    max-width:330px;
+    margin-top:5px
+}
+         
+    .author-meta-info{
+        width:100%;
+        position:inherit
+}
+       
+    .author-meta-info__inner{
+        padding:1px 0 0;
+        margin:0
+}
+    
+      
+   
+
+
+.site-footer {
+  background: #cce6ff;
+  clear: both;
+  padding: 20px 0 80px;
+}
+.site-footer .site-info {
+  font-size: 14px;  
+  color: #000000;  
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-left: 50px;
+    
+}
+.site-footer .site-info .footer-links {
+  padding-left: 10px;
+}
+.site-footer .site-info a {
+  color: #000000;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.site-footer .site-info a:hover {
+  text-decoration: underline;
+}
+
+
+
 
 .media {
   margin-bottom: 2em;
