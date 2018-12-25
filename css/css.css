@@ -33,6 +33,10 @@ img {
     letter-spacing: 5;
     word-break: keep-all;
     background-position: inherit;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1 {
