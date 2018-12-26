@@ -27,14 +27,31 @@ img {
     height: auto;
 }
 
+.credit {
+    display: block;
+    text-align: right;
+    font-family: "Verdana",Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    line-height: 16px;
+    margin: 5px;
+    color: #dcdcdc;
+}
+
+.credit a {
+    color: inherit;
+}
+
+.credit__link {
+    color: #dcdcdc;
+    text-decoration: underline;
+}
+
 .intro {
     word-wrap: normal;
     padding-top: 15px;
     object-fit: scale-down;
     object-position: center;
     vertical-align: middle;
-    
-    
 }
 
 .title-text-main {
@@ -58,6 +75,22 @@ h1 {
 p {
     margin: 0 0 1em 0;
     color: #cce6ff;
+}
+
+a {
+    color: #bbd3eb;
+    outline: none;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #67abec;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF4800;
 }
 
 .author {
@@ -268,5 +301,14 @@ p {
             margin: 0; /* override */
             margin-top: 1em;
         }
+    }
+}
+
+@media @media (min-width: 767px) .credit {
+    margin: 5px 0 25px;
+}
+
+ {
+    .credit {
     }
 }
