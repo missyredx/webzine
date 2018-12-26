@@ -157,6 +157,7 @@ p {
 
 .media > .content {
     grid-area: bd;
+    padding-top: 15px;
 }
 
 .media > .footer {
